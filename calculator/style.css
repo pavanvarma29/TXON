@@ -1,0 +1,104 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(14, 13, 13);
+}
+
+h1
+{
+    color: aliceblue;
+    padding-top: 10vh;
+    text-transform: uppercase;
+    text-align: center;
+}
+.calculator
+{
+    background-color: rgb(247, 245, 245);
+    width: max-content;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px white;
+    margin: auto;
+    margin-top: 10vh;
+}
+.screen
+{
+    margin: 0px 0px 10px 0px;
+}
+#display
+{
+    text-align: right;
+    width: 30vh;
+    height: 5vh;
+    border-radius: 4px;
+    font-size: 2.5vh;
+    padding: 5px 10px;
+    border: 2px solid blue;
+    
+}
+.row
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+button
+{
+    cursor: pointer;
+    font-size: 3.5vh;
+    font-weight: bold;
+    background-color: rgb(0, 63, 105);
+    color: rgb(255, 255, 255);
+    width: 6vh;
+    font-family: monospace;
+    height: 6vh;
+    border-radius: 3vh;
+    margin: 0.5vh;
+    border: 0px;
+    transition: 0.2s;
+}
+button:hover
+{
+    background-color: rgb(77, 139, 202);
+    box-shadow: -5px 0px 7px rgb(0, 162, 255) inset;
+}
+.C
+{
+    background-color:  rgb(255, 131, 15)
+}
+.C:hover
+{
+    background-color: rgb(250, 117, 46);
+    box-shadow: -5px 0px 7px rgb(255, 15, 15) inset;
+}
+.equal
+{
+    background-color: rgb(11, 126, 38);
+}
+.equal:hover
+{
+    background-color: #117b34;
+    box-shadow: -5px 0px 7px #0d8a32 inset;
+}
+.operator
+{
+    background-color: rgb(129, 9, 13);
+}
+.operator:hover
+{
+    background-color: rgb(182, 53, 66);
+    box-shadow: -5px 0px 7px rgb(129, 9, 27) inset;
+}
+.erase
+{
+    background-color: rgb(255, 99, 169);
+}
+.erase:hover
+{
+    background-color: rgb(255, 141, 234);
+    box-shadow: -5px 0px 7px rgb(206, 99, 255) inset;
+}
